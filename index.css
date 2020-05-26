@@ -1,0 +1,84 @@
+.body{
+    background: linear-gradient(to bottom, #ff7f00, #fac020)fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    color: #fff0e1;
+    font-size: 25px;
+    padding-top: 0px;
+}
+/*//////////////////////////////////*/
+
+.blockWeather{
+    display: flex;
+    justify-content: center;
+}
+.divWeather{
+    width: 450px;
+    height: 270px;
+    background-color: #fff3e4;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    
+    
+}
+
+
+.divSearch{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    
+}
+
+
+
+.btnClose{
+    position: absolute;
+    right: 250px;
+    background-color:#fff3e4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff7f00;
+}
+
+
+.maxMin{
+    display: flex;
+}
+
+
+.wind{
+    display: flex;
+}
+
+/*btn search*/
+.search{
+    width: 390px;
+    height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    font-size: 22px;
+    color: black;
+    padding-left: 20px;
+    border: none;
+    background-color: #fff0e1;
+}
+.search:active{
+    border: grey;
+}
+
+
+
+button{
+    height: 52px;
+    width: 40px;
+    background-color: #fff0e1;
+    border: none;
+}
+
+hr{
+    width: 500px;
+}

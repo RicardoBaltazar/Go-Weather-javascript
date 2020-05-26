@@ -4,38 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clima/Tempo</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
 
 </head>
 <body class="body">
-<section class="container text-left"> 
 
-    <div class="row">
-        <h1 class="title">Clima Agora App</h1>
-        <form class="form">
-            <input type="text" class="input" id="input" placeholder="Pesquise por sua Cidade">
-            <input type="submit" value="Pesquisar" class="button" id="button">
-        </form>
-    </div>
+<header>
+    <h1>Previsão do tempo</h1>
+</header>
 
-    <div class="row">
-        <div class="block">
-            <div class="res1" id="res1"></div>
-            <div class="res2" id="res2"></div>
-            <div class="res3" id="res3"></div>
-            <div class="res4" id="res4"></div>
-            <div class="res5" id="res5"></div>
-        </div>
-    </div>
+<main>
+    <section> 
+        <div class="blockWeather">
 
+            <div class="divWeather">
+                <div class="divBtn">
+                    <button class="btnClose" id="btnClose"> X </button>
+                </div>
+
+                <p class="country" id="country"></p>
+                <p class="temp" id="temp"></p>
+                <div class="maxMin">
+                    <p class="moreInfo">Min <span class="min" id="min"></span> 
+                    Max <span class="max" id="max"></span></p>
+                    <p class="feelsLike">Feels like <span class="feelsLikeSpan" id="feelsLike"></span></p>
+                </div>
     
-</section>
+                <div class="wind">
+                    <p>vento <span class="windSpan" id="wind"></span></p>
+                    <p>Humidade <span class="humiditySpan" id="humidity"></span></p>
+                </div>
+            </div>
+        </div>
 
-<footer class="container">
-    <small class="small">Projeto de Estudo Clima Agora <span>&#128522;</span> </small>
+        <div class="divSearch">
+            <form>
+                <input type="text" name="" class="search" id="search" placeholder="Insira aqui o nome da sua cidade">
+                <button type="submit" id="btn">&#128269;</button>
+            </form>
+        </div>
+        <hr>
+    </section>
+</main>
+
+<footer>
+    
 
 </footer>
 
