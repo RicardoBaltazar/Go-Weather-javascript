@@ -3,4 +3,5 @@ Sistema que consulta o clima de uma cidade especifica. Utiliza API para consulta
   
 Link do Projeto https://ricardobaltazar.github.io/clima-agora-app/  
   
-![clima-agora](https://user-images.githubusercontent.com/56805229/81864571-330c1a00-9543-11ea-9472-58d66cb21932.png)
+
+![eeee](https://user-images.githubusercontent.com/56805229/83069365-22c66580-a040-11ea-9af6-a1b8012eb82b.gif)
