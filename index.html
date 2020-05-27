@@ -10,7 +10,7 @@
 <body class="body">
 
 <header>
-    <h1>Previsão do tempo</h1>
+    <h1>weather forecast</h1>
 </header>
 
 <main>
@@ -19,14 +19,14 @@
 
             <div class="divWeather">
                 <div class="divBtn">
-                    <button class="btnClose" id="btnClose"> X </button>
+                    <button class="btnClose" id="btnClose"> &times; </button>
                 </div>
 
                 <p class="country" id="country"></p>
                 <p class="temp" id="temp"></p>
                 <div class="maxMin">
-                    <p class="moreInfo">Min <span class="min" id="min"></span> 
-                    Max <span class="max" id="max"></span></p>
+                    <p><span class="arrowDown">↓</span><span class="min" id="min"></span> 
+                    <span class="arrowUp">↑</span><span class="max" id="max"></span></p>
                     <p class="feelsLike">Feels like <span class="feelsLikeSpan" id="feelsLike"></span></p>
                 </div>
     
@@ -39,18 +39,25 @@
 
         <div class="divSearch">
             <form>
-                <input type="text" name="" class="search" id="search" placeholder="Insira aqui o nome da sua cidade">
-                <button type="submit" id="btn">&#128269;</button>
+                <input type="text" name="" class="search" id="search" placeholder="insert the name of your city here">
+                <button type="submit" id="btn" class="btn">&#128269; </button>  
             </form>
         </div>
         <hr>
+
+        <div>
+            <h3>Capitais</h3>
+
+            <p id="cidades"></p>
+        </div>
     </section>
 </main>
 
-<footer>
-    
 
-</footer>
+
+
+
+<footer></footer>
 
     
 
