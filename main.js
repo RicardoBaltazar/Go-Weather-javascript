@@ -60,6 +60,12 @@ document.querySelector('#btn').addEventListener('click',function(e){
 })
 
 
+//evento para fechar o bloco das informações
+document.querySelector('#btnClose').addEventListener('click', function(){
+        document.querySelector('.blockWeather').style.display = 'none'
+})
+
+
 
 
 
