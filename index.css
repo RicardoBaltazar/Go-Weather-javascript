@@ -115,6 +115,7 @@ header{
 .hrBlockTemp{
     background-color: #ff7f00;
     width: 340px;
+    height: 1.9px;
 }
 
 
@@ -158,6 +159,4 @@ hr{
     border: 0;
     background-color: white
 }
-
-/*media@*/
 
