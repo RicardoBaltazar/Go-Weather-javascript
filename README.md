@@ -1,9 +1,7 @@
 # Weather Forecast  
   
-##Description  
+##Descrição
 
-
-Front-end application that queries the temperature of any city
-  
+Aplicação front-end que consulta a temperatura de qualquer cidade  
 Link https://ricardobaltazar.github.io/clima-agora-app/  
 
