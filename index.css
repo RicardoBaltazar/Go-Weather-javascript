@@ -166,9 +166,11 @@ hr{
 @media only screen and (max-width: 600px) {
     .divWeather{
         width: 100%;
+        display: none;
     }
     .hrBlockTemp{
         width: 440px;
     }
+
 }
 
