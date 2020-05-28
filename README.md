@@ -19,6 +19,6 @@ Link  https://ricardobaltazar.github.io/weather-forecast/
 ## Features/Recursos  
 *Consultar clima da Cidade
   
-## 
->>>>>>> 8dcd7b70adbf89891194e4bf7423c28cbb395f38
+## Api  
+*Utiliza a api da https://openweathermap.org/current 
 
