@@ -54,6 +54,8 @@ document.querySelector('#btn').addEventListener('click',function(e){
         })
         .catch(function (e) {
                 console.log('Erro: ')
+                alert('Please enter a valid value')
+                document.querySelector('.blockWeather').style.display = 'none'
         })
         
         city.value = ''

@@ -160,3 +160,15 @@ hr{
     background-color: white
 }
 
+
+/*media@*/
+
+@media only screen and (max-width: 600px) {
+    .divWeather{
+        width: 100%;
+    }
+    .hrBlockTemp{
+        width: 440px;
+    }
+}
+
