@@ -15,4 +15,6 @@ I got the data with fetch via get through javascript.
 ## Api  
 
 uses the api https://openweathermap.org/current 
+  
+## technologies used  
 
