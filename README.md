@@ -6,15 +6,29 @@
   
 ## Notes  
   
-Weather forecast frontend application.  
+Aplicação front-end de previsão do tempo.  
+Consome dados de uma api para consultar o clima da cidade pesquisada.  
+Recebi as informações da api via get. Utilizer o fetch api do javascript.  
 
-Uses an api to consult the researched climate.  
-
-I got the data with fetch via get through javascript.  
-
+```
+        const options = {
+                method: 'GET',
+                mode: 'cors',
+                cache: 'default'
+        }
+        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city.value}&appid=17c6ff7a68ddf23b9c99f11ba7456398&units=metric`, options)
+        
+        .then(function (response) {
+                return response.json();
+        })
+        .then(function (data) {
+                console.log(data)
+```
 ## Api  
 
-uses the api https://openweathermap.org/current 
+Usei a api https://openweathermap.org/current 
   
 ## technologies used  
-
+#### html  
+#### css  
+#### javascript
