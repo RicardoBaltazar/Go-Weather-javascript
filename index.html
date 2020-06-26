@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/weather.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
     <title>Go Weather</title>
 </head>
 
@@ -28,14 +30,11 @@
 
                         <p class="country" id="country"></p>
                         <p class="temp" id="temp"></p>
-                        <div class="maxMin">
-                            <p><span class="arrowDown">↓</span><span class="min" id="min"></span>
-                                <span class="arrowUp">↑</span><span class="max" id="max"></span></p>
-                            <p class="feelsLike">Feels like <span class="feelsLikeSpan" id="feelsLike"></span></p>
-                        </div>
+                    
                         <div class="wind">
-                            <p>Wind <span class="windSpan" id="wind"></span></p>
-                            <p>Humidity <span class="humiditySpan" id="humidity"></span></p>
+                            <li class="feelsLike">Feels like <span class="feelsLikeSpan" id="feelsLike"></span></li>
+                            <li>Wind <span class="windSpan" id="wind"></span></li>
+                            <li>Humidity <span class="humiditySpan" id="humidity"></span></li>
                         </div>
                         <hr class="hrBlockTemp">
                     </div>
@@ -44,18 +43,18 @@
                 <div class="divSearch">
                     <form>
                         <input type="text" name="" class="search" id="search"
-                            placeholder="insert the name of your city here">
+                            placeholder="enter the city name">
                         <button type="submit" id="btn" class="btn">&#128269; </button>
                     </form>
                 </div>
                 <hr>
 
-                <h2>Capitais</h2>
+                <h2>Capitals</h2>
 
                 <div class="capitals"></div>
             </main>
         </div>
-    </div>>
+    </div>
 
     <script src="./scripts/main.js"></script>
     <script src="./scripts/capitals.js"></script>

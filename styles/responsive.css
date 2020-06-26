@@ -1,0 +1,11 @@
+@media (max-width: 768px){
+    .page-home{
+        width: 100vw;
+    }
+}
+
+@media (max-width: 425px){
+    .search{
+        padding: 10px 40px;
+    }
+}
