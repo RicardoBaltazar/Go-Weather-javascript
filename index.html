@@ -1,66 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clima/Tempo</title>
-    <link rel="stylesheet" href="index.css">
-
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Go Weather</title>
 </head>
+
 <body class="body">
 
-<header>
-    <h1>weather forecast</h1>
-</header>
+    <div class="page-home">
+        <div class="content">
 
-<main>
-    <section> 
-        <div class="blockWeather">
+            <header>
+                <h1>Go Weather</h1>
+            </header>
 
-            <div class="divWeather">
-                <div class="divBtn">
-                    <button class="btnClose" id="btnClose"> &times; </button>
+            <main>
+                <div class="blockWeather">
+
+                    <div class="divWeather">
+                        <div class="divBtn">
+                            <button class="btnClose" id="btnClose"> &times; </button>
+                        </div>
+
+                        <p class="country" id="country"></p>
+                        <p class="temp" id="temp"></p>
+                        <div class="maxMin">
+                            <p><span class="arrowDown">↓</span><span class="min" id="min"></span>
+                                <span class="arrowUp">↑</span><span class="max" id="max"></span></p>
+                            <p class="feelsLike">Feels like <span class="feelsLikeSpan" id="feelsLike"></span></p>
+                        </div>
+                        <div class="wind">
+                            <p>Wind <span class="windSpan" id="wind"></span></p>
+                            <p>Humidity <span class="humiditySpan" id="humidity"></span></p>
+                        </div>
+                        <hr class="hrBlockTemp">
+                    </div>
                 </div>
 
-                <p class="country" id="country"></p>
-                <p class="temp" id="temp"></p>
-                <div class="maxMin">
-                    <p><span class="arrowDown">↓</span><span class="min" id="min"></span> 
-                    <span class="arrowUp">↑</span><span class="max" id="max"></span></p>
-                    <p class="feelsLike">Feels like <span class="feelsLikeSpan" id="feelsLike"></span></p>
+                <div class="divSearch">
+                    <form>
+                        <input type="text" name="" class="search" id="search"
+                            placeholder="insert the name of your city here">
+                        <button type="submit" id="btn" class="btn">&#128269; </button>
+                    </form>
                 </div>
-                <div class="wind">
-                    <p>Wind <span class="windSpan" id="wind"></span></p>
-                    <p>Humidity <span class="humiditySpan" id="humidity"></span></p>
+                <hr>
+
+                <h2>Capitais</h2>
+
+                <div class="capitals">
+                    <li><span id="sp"></span>São Paulo</li>
+                    <li><span  id="london"></span> London</li>
+                    <li><span  id="paris"></span> Paris</li>
+                    <li><span  id="dublin"></span> Dublin</li>
+                    <li><span  id="tokyo"></span> Tokyo</li>
+                    <li><span  id="ottawa"></span> Otawa</li>
+                    <li><span  id="berlim"></span> Berlim</li>
+                    <li><span  id="amsterdam"></span> Amsterdam</li>
+                    <li><span  id="copenhague"></span> Copenhague</li>
+                    <li><span  id="reykjavik"></span> Reykjavik</li>
                 </div>
-                <hr class="hrBlockTemp">
-            </div>
+            </main>
         </div>
+    </div>>
 
-        <div class="divSearch">
-            <form>
-                <input type="text" name="" class="search" id="search" placeholder="insert the name of your city here">
-                <button type="submit" id="btn" class="btn">&#128269; </button>  
-            </form>
-        </div>
-        <hr>
-
-    </section>
-</main>
-
-
-
-
-
-<footer></footer>
-
-    
-
- 
-
-
-
-<script src="main.js"></script>
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/capitals.js"></script>
 </body>
+
 </html>
