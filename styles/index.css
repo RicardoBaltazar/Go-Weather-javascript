@@ -6,12 +6,7 @@
 
 .body{
     background: linear-gradient(to bottom, #ff7f00, #fac020)fixed;
-    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
     font-family: 'Roboto', sans-serif;
-}
-
-.page-home {
-
 }
 
 .page-home .content {
@@ -27,43 +22,30 @@
 }
 
 header{
-
     color: white;
     font-size: 23px;
     margin: 30px 0px;
 }
 
-/*//////////////////////////////////*/
-
-
-
-
-/*btn search*/
 .divSearch{
-
     margin-bottom: 20px;
-    
 }
 
 .search{
-    /*width: 320px;
-    height: 40px;*/
-
     border: none;
     font-size: 18px;
     padding-left: 20px;
     padding: 10px 50px;
     border: none;
     background-color: white;
-    
-
 }
+
 .search:focus{
     outline: none;
 }
+
 form{
     display: flex;
-    
 }
 
 .btn{
@@ -72,12 +54,15 @@ form{
     background-color: white;
     border: none;
 }
+
 .btn:focus{
     cursor: pointer;
 }
+
 .btn:active{
     background-color: rgb(240, 239, 239);
 }
+
 .btn:focus, .btn:active{
     outline: none;
 }
@@ -92,14 +77,13 @@ hr{
 h2 {
     margin: 40px 0px 20px 25px;
     color: white;
-    font-size: 25px;
-    
+    font-size: 25px;   
 }
 
 .capitals {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 8px 50px;
+    gap: 8px 60px;
     margin: 0px 0px 0px 25px;
 }
 
@@ -107,22 +91,9 @@ h2 {
     list-style-type: none;
     font-weight: bold;
     font-size: 16px;
+    color: black;
 }
 
 
 
-
-
-/*media@*/
-
-@media only screen and (max-width: 600px) {
-    .divWeather{
-        width: 100%;
-        display: none;
-    }
-    .hrBlockTemp{
-        width: 440px;
-    }
-
-}
 
