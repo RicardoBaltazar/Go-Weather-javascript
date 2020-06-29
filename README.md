@@ -5,8 +5,8 @@
 ## :computer: Projeto  
 O Go Weather é uma aplicação web para realizar consultas de informações climáticas.  
   
-![goWeather](https://user-images.githubusercontent.com/56805229/86037066-35540600-ba15-11ea-92e1-61c1c1018073.gif) 
-![goWeatherResponsive](https://user-images.githubusercontent.com/56805229/86037240-70563980-ba15-11ea-8f02-dc3d45739765.gif)  
+![goWeather](https://user-images.githubusercontent.com/56805229/86041280-d04fde80-ba1b-11ea-82dd-1a4f20ccc6b3.gif)  
+![goWeatherResponsive](https://user-images.githubusercontent.com/56805229/86041306-db0a7380-ba1b-11ea-818f-2f13f1ccf1d2.gif)   
   
 ## :rocket: Tecnologias  
 Esse projeto foi desenvolvido com as seguintes tecnologias:  
