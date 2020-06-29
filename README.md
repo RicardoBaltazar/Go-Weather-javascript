@@ -30,5 +30,5 @@ Utilizei a API https://openweathermap.org/ para realizar as consultas
   
 * Adicione um título e uma descrição que deixe claro sua sugestão :v:  
   
-## :memo: Lincença  
+## :memo: Licença  
 [MIT license](https://github.com/RicardoBaltazar/mediaDonate/blob/master/LICENSE)
