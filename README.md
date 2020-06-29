@@ -16,7 +16,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 * [Javascript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)  
   
 ## API  
-Utilizei a API https://openweathermap.org/ para realizar as consultas  
+Foi utilizado a API https://openweathermap.org/ para realizar as consultas  
   
 
 ## :smile: Como contribuir  
