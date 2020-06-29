@@ -1,34 +1,34 @@
-# Weather Forecast  
-   
-  
-![temp](https://user-images.githubusercontent.com/56805229/83090122-620bab00-a06e-11ea-979f-4706683c5658.gif)
+# Go Weather  
 
+![https://github.com/RicardoBaltazar/Go-Weather/blob/master/LICENSE](https://img.shields.io/github/license/RicardoBaltazar/Go-Weather)  
   
-## Notes  
+## :computer: Projeto  
+O Go Weather é uma aplicação web para realizar consultas de informações climáticas.  
   
-Aplicação front-end de previsão do tempo.  
-Consome dados de uma api para consultar o clima da cidade pesquisada.  
-Recebi as informações da api via get. Utilizer o fetch api do javascript.  
+![goWeather](https://user-images.githubusercontent.com/56805229/86041280-d04fde80-ba1b-11ea-82dd-1a4f20ccc6b3.gif)  
+![goWeatherResponsive](https://user-images.githubusercontent.com/56805229/86041306-db0a7380-ba1b-11ea-818f-2f13f1ccf1d2.gif)   
+  
+## :rocket: Tecnologias  
+Esse projeto foi desenvolvido com as seguintes tecnologias:  
+  
+* [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
+* [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS)  
+* [Javascript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)  
+  
+## API  
+Foi utilizado a API https://openweathermap.org/ para realizar as consultas  
+  
 
-```
-        const options = {
-                method: 'GET',
-                mode: 'cors',
-                cache: 'default'
-        }
-        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city.value}&appid=17c6ff7a68ddf23b9c99f11ba7456398&units=metric`, options)
-        
-        .then(function (response) {
-                return response.json();
-        })
-        .then(function (data) {
-                console.log(data)
-```
-## Api  
-
-Usei a api https://openweathermap.org/current 
+## :smile: Como contribuir  
   
-## technologies used  
-#### html  
-#### css  
-#### javascript
+* Faça um fork desse repositório;  
+* Crie sua feature branch: ```git checkout -b my-new-feature```  
+* Adicione os arquivos modificados: ``` git add .```  
+* Faça um Commit com suas alterações: ```git commit -m "Add some feature"```  
+* Faça um push da sua branch: ``` git push origin my-new-feature ```  
+* Envie um Pull Request para esse repositório  
+  
+* Adicione um título e uma descrição que deixe claro sua sugestão :v:  
+  
+## :memo: Licença  
+[MIT license](https://github.com/RicardoBaltazar/mediaDonate/blob/master/LICENSE)
