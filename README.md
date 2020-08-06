@@ -1,5 +1,7 @@
 <h1 align="center">Go Weather</h1>   
   
+#### Visite o projeto [link](https://ricardobaltazar.github.io/Go-Weather-javascript/)  
+  
 ![go-weather-img](https://user-images.githubusercontent.com/56805229/89582493-1cf2ba80-d80f-11ea-815b-f8c3d9b8c534.png)  
 ![https://github.com/RicardoBaltazar/Go-Weather/blob/master/LICENSE](https://img.shields.io/github/license/RicardoBaltazar/Go-Weather)  
   
@@ -15,7 +17,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
   
 - [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript  
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)  
     
 ![goWeather](https://user-images.githubusercontent.com/56805229/86041280-d04fde80-ba1b-11ea-82dd-1a4f20ccc6b3.gif)  
 ![goWeatherResponsive](https://user-images.githubusercontent.com/56805229/86041306-db0a7380-ba1b-11ea-818f-2f13f1ccf1d2.gif)   
