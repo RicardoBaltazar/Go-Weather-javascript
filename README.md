@@ -1,9 +1,10 @@
-<h1 align="center">Go Weather</h1>   
+<h1 align="center">Go Weather</h1>  
+  
+![https://github.com/RicardoBaltazar/Go-Weather/blob/master/LICENSE](https://img.shields.io/github/license/RicardoBaltazar/Go-Weather)  
   
 #### Visite o projeto [link](https://ricardobaltazar.github.io/Go-Weather-javascript/)  
   
 ![go-weather-img](https://user-images.githubusercontent.com/56805229/89582493-1cf2ba80-d80f-11ea-815b-f8c3d9b8c534.png)  
-![https://github.com/RicardoBaltazar/Go-Weather/blob/master/LICENSE](https://img.shields.io/github/license/RicardoBaltazar/Go-Weather)  
   
 O Go Weather é uma aplicação web para realizar consultas de informações climáticas.  
   
