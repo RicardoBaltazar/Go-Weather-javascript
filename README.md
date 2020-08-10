@@ -6,7 +6,7 @@
   
 ![go-weather-img](https://user-images.githubusercontent.com/56805229/89582493-1cf2ba80-d80f-11ea-815b-f8c3d9b8c534.png)  
   
-O Go Weather é uma aplicação web para realizar consultas de informações climáticas.  
+O Go Weather é uma aplicação web que realiza consultas para obter informações climáticas das cidades.  
   
 ### Features
 
